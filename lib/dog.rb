@@ -15,8 +15,3 @@ class Dog
     @breed = new_breed
   end
 end
-
-quiz = Dog.new("Noodle", "Newfypoo")
-quiz.name = "Quiz"
-quiz.breed = "Saint Berdoodle"
-puts "#{quiz.name} is a #{quiz.breed}"
